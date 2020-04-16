@@ -1,5 +1,10 @@
-# f102019
-MrRobot Project → Discovering Block Propagation
+# JUNK
+
+Here I collect all the junk thoughts and experiments I do randomly from time to time. 
+
+## Propagation
+I started this project at a #SIX #F10 hackathon → MrRobot Project on "Discovering Block Propagation". This project is dedicated Propagation in natural systems, and it outgrows to research. 
+
 
 https://github.com/cosmos/sdk-application-tutorial
 https://github.com/SubhankarGhosh/NetworkX
