@@ -1,10 +1,11 @@
-# JUNK
+# knotinteresting JUNK
 
 Here I collect all the junk thoughts and experiments I do randomly from time to time. 
 
 ## Propagation
 I started this project at a #SIX #F10 hackathon → MrRobot Project on "Discovering Block Propagation". This project is dedicated Propagation in natural systems, and it outgrows to research. 
 
+Also inspired by https://en.wikipedia.org/wiki/Hackers_(film) the most valuable info was stored in the junk folder. 
 
 https://github.com/cosmos/sdk-application-tutorial
 https://github.com/SubhankarGhosh/NetworkX
