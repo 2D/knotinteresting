@@ -1,0 +1,291 @@
+/* Copyright (c) Optiver I.P. B.V. 2020 */
+
+/**
+ * CORE DOCUMENT OVERRIDES
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: white !important;
+  color: black !important;
+  font-family: 'Avenir Book', monospace !important;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer a {
+  color: #8A8B8A;
+}
+
+footer a:hover {
+  color: #8A8B8A;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu{ display: none; }
+  .navbar .nav-item:hover .nav-link{ color: #fff;  }
+  .navbar .nav-item:hover .dropdown-menu{ display: block; }
+  .navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+/*
+ * CUSTOM DEFINITIONS
+ */
+
+.avh {
+  font-family: 'Avenir Heavy', monospace;
+}
+
+.avb {
+  font-family: 'Avenir Book', monospace;
+}
+
+.opc {
+  color: #d74830;
+}
+
+.opc2 {
+  color: #1a6a87;
+}
+
+.opc-bg {
+  background-color: #d74830;
+}
+
+.opc2-bg {
+  background-color: #1a6a87;
+}
+
+.ic {
+  color: #6792A2
+}
+
+.hc {
+  background-color: #1E1E2E !important;
+}
+
+.bc {
+  color: black;
+  opacity: 75%;  /* white on dark hurts, that's why it is typically displayed at 75-85% opacity in dark themes */
+}
+
+/*
+ * TEMPLATE CSS
+ */
+
+.header-size {
+  max-width: 80em;
+}
+
+.container-size {
+  max-width: 62em;
+}
+
+.optiver-footer {
+  background-color: #DFE7EC;
+}
+
+.header-dropdown {
+  color: white !important;
+}
+
+.header-dropdown:hover {
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.optibook-link:hover {
+  text-decoration: none !important;
+}
+
+.optiver-email:hover {
+  color: #E95F40;
+}
+
+.legal {
+  padding: 0;
+}
+
+/*
+ * LANDING PAGE CSS
+ */
+
+.optibook-blur {
+  background-image: url(optibook-blur.gif) !important;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.discover-optibook {
+  transition: all .2s ease-in-out;
+}
+
+.discover-optibook:hover {
+  color: white;
+  text-decoration: none !important;
+  transform: scale(1.1);
+}
+
+.mobile-tr {
+  text-align: right;
+}
+
+.mobile-tr-img {
+  text-align: right;
+}
+
+.mobile-tl-img {
+  text-align: left;
+}
+
+@media (max-width: 37.5em) {
+  .mobile-tr {
+    text-align: left;
+  }
+  .mobile-tr-img {
+    text-align: center;
+  }
+
+  .mobile-tl-img {
+    text-align: center;
+  }
+}
+
+.img-ratio {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+/*
+ * MARKDOWN CSS
+ */
+
+.markdown-content > h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #d74830;
+  font-family: 'Avenir Heavy', monospace !important;
+}
+
+.markdown-content > h2, h3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #1a6a87;
+  font-family: 'Avenir Heavy', monospace !important;
+}
+
+/*
+ * MARKDOWN CSS - TABLES
+ */
+
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 15px;
+  background-color: transparent;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+  border: 1px solid #cccccc; /* Change the border-color of heading here */
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #cccccc; /* Change the border-color of cells here */
+  padding: 8px;
+}
+
+tr {
+  background-color: transparent;
+}
+
+tr:nth-of-type(2n+1) {
+  background-color: #eeeeee; /* Change the background-color of odd rows here */
+}
+
+tr th {
+  background-color: #dddddd; /* Change the background-color of heading here */
+}
+
+tr {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+th, td {
+  border: n
+}
+
+/*
+ * CREDENTIALS CSS
+ */
+
+.credentials-box {
+  position: relative;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 4px 22px -8px #0004;
+  display: flex;
+  overflow: hidden;
+}
+
+.credentials-box .left{
+  width: 41%;
+  height: 100%;
+}
+
+.credentials-box .right{
+  width: 59%;
+  height: inherit;
+  background-image: url(stocks_image.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1150px;
+  background-position-x: -100px;
+}
+
+.credentials-details {
+  width: 270px
+}
+
+.credentials-details-2 {
+  width: 350px
+}
+
+.credentials-separator {
+  border: 0;
+  border-top: 1px solid #CCC;
+  text-align: center;
+  width: 100px;
+}
+
+#team-pw-hidden {
+  display: block;
+}
+
+#team-pw-clear {
+  display:none;
+}
+
+#toggle-team-pw:hover > #team-pw-clear {
+  display:block;
+}
+
+#toggle-team-pw:hover > #team-pw-hidden {
+  display:none;
+}

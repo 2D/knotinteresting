@@ -1,0 +1,41 @@
+/* Copyright (c) Optiver I.P. B.V. 2019 */
+
+/**
+ * FONTS
+ */
+@font-face {
+    font-family: 'Arca Majora';
+    src: url('Arca-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('Avenir-Next-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir Book';
+    src: url('Avenir-Book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir Heavy';
+    src: url('Avenir-Heavy.ttf') format('truetype');
+}
+
+/** CUSTOM CSS **/
+
+.tf {
+    font-family: 'Arca Majora', cursive;
+    color: #eeeeee !important;
+}
+
+.mf {
+    font-family: 'Avenir Next', sans-serif !important;
+    color: #B0B0B4 !important;
+}
