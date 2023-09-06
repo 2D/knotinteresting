@@ -1,0 +1,6 @@
+﻿Sie haben folgende Bestellung aufgegeben: 
+Name des Geodatensatzes: 3D-Dachmodell LoD2 Jahresstand 2015 
+Name des Ausschnittes: bbox
+Ausschnitt (falls definiert): 2683081.9254961787, 1247264.0846677586, 2683632.992789563,1247751.810892937 
+Zeitpunkt der Bearbeitung: 30.08.2023 - 12:04 
+
